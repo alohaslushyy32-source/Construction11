@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  color: #222;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  background: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.6);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+/* BUTTON */
+.btn {
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: #f4b400;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* SECTIONS */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.dark {
+  background: #111;
+  color: white;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card, .img-box {
+  background: #eee;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.dark .card {
+  background: #222;
+}
+
+/* FORM */
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+/* FOOTER */
+footer {
+  padding: 20px;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.small {
+  margin-top: 10px;
+  font-size: 14px;
+}
