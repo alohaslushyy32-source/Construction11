@@ -1,4 +1,10 @@
-* {
+:root {
+  --primary: #ffb300;
+  --dark: #0f0f0f;
+  --card: #1c1c1c;
+  --text: #fff;
+}
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
