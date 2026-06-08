@@ -8,59 +8,65 @@
 </head>
 <body>
 
-  <header class="hero">
-    <div class="overlay">
-      <h1>Reliable Construction Services</h1>
-      <p>Residential • Commercial • Remodeling • Repairs</p>
-      <a href="#contact" class="btn">Get a Free Quote</a>
-    </div>
+  <!-- NAV -->
+  <header class="nav">
+    <h2>BuildRight Co.</h2>
+    <a href="#contact" class="nav-btn">Get Quote</a>
   </header>
 
-  <section class="section">
-    <h2>Our Services</h2>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="fade-in">We Build It Right the First Time</h1>
+      <p class="fade-in delay">
+        Construction • Remodeling • Repairs • Concrete
+      </p>
+      <a href="#services" class="btn pulse">View Services</a>
+    </div>
+    <div class="hero-glow"></div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <h2 class="slide-up">Our Services</h2>
+
     <div class="grid">
       <div class="card">Framing</div>
       <div class="card">Roofing</div>
       <div class="card">Concrete</div>
-      <div class="card">Remodeling</div>
       <div class="card">Drywall</div>
       <div class="card">Flooring</div>
+      <div class="card">Remodeling</div>
     </div>
   </section>
 
-  <section class="section dark">
-    <h2>About Us</h2>
-    <p>
-      We provide high-quality construction work with reliable service,
-      fair pricing, and professional results.
-    </p>
-  </section>
-
-  <section class="section">
-    <h2>Projects</h2>
-    <div class="grid">
-      <div class="img-box">Project 1</div>
-      <div class="img-box">Project 2</div>
-      <div class="img-box">Project 3</div>
-      <div class="img-box">Project 4</div>
+  <!-- ABOUT -->
+  <section class="about">
+    <div class="about-box slide-up">
+      <h2>Trusted Construction Work</h2>
+      <p>
+        We deliver clean, reliable, and professional construction services
+        with a focus on quality and customer satisfaction.
+      </p>
     </div>
   </section>
 
-  <section class="section dark" id="contact">
-    <h2>Get a Quote</h2>
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2 class="slide-up">Get a Free Quote</h2>
 
     <form id="contactForm">
       <input type="text" placeholder="Name" required />
       <input type="tel" placeholder="Phone" required />
-      <textarea placeholder="Describe your project" required></textarea>
-      <button class="btn" type="submit">Send</button>
+      <textarea placeholder="Your project..." required></textarea>
+      <button class="btn">Send Request</button>
     </form>
 
     <p class="small">Call/Text: (555) 123-4567</p>
   </section>
 
   <footer>
-    <p>© 2026 Construction Services</p>
+    <p>© 2026 BuildRight Co.</p>
   </footer>
 
   <script src="script.js"></script>
